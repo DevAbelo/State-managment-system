@@ -5,7 +5,10 @@ import 'screens/splash_screen.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(create: (_) => TaskProvider(), child: const MyApp()),
+    ChangeNotifierProvider(
+      create: (_) => TaskProvider(),
+      child: const MyApp(),
+    ),
   );
 }
 
